@@ -23,7 +23,9 @@ import Login_component from "@/components/Login";
 export default function Home() {
   return (
     <>
-      <Login_component />
+      <div className="flex w-full justify-center">
+        <Login_component />
+      </div>
     </>
   );
 }
